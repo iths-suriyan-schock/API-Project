@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+.container{
+    display: flex;
+    width: 100vw;
+}
+
+.cardNames {
+    /* display: flex; */
+    width: 48vw;
+}
+
+.cardPic {
+    display: flex;
+    width: 48vw;
+    justify-content: center;
+}
+
+h1 {
+    /* background-color: coral; */
+    padding-top: 1rem;
+    color: rgb(189, 189, 189);
+    font-size: 2em;
+}
+
+ul {
+    background-color: rgb(69, 81, 85);
+    height: 40%;
+    width: 40%;
+    color: khaki;
+    font-size: 1.3em;
+}
+
+.prototype {
+    display: none;
+}
